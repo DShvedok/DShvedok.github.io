@@ -9,6 +9,12 @@ p {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 15px;
+  color: white;
+  position: relative;
+  border: 3px solid white;
+  border-width: medium;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 #introduction {
@@ -24,18 +30,54 @@ p {
   background-position: center;
   background-image: url(https://www.bassnectar.net/wp-content/gallery/family-photos/Bassnectar-BCX-Family-Photo-Night-1.jpg);
   background-size: cover;
-  color: rgb(23, 255, 82);
   width: auto;
-  height: 400px;
+  height: 500px;
+  font-size: 22px;
 }
 
-h1 {
-  border: 3px solid rgb(123, 0, 32);
-  position: relative;
-  top: 100px;
-  width: 400px;
-  font-size: 48px;
-  text-align: center;
+#atlanta {
+  background-position: center;
+  background-image: url(https://www.bassnectar.net/wp-content/gallery/family-photos/Bassnectar-ATL-Night-2.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  font-size: 22px;
+}
+
+#freestyle {
+  background-position: center;
+  background-image: url(https://www.bassnectar.net/wp-content/gallery/family-photos/Bassnectar-Freestyle-Sessions-Night-1-Fam-Photo.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  font-size: 22px;
+}
+
+#atlanticity {
+  background-position: center;
+  background-image: url(https://www.bassnectar.net/wp-content/gallery/family-photos/Bassnectar-Atlantic-City-2-Family-Photo.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  font-size: 22px;
+}
+
+#basslights {
+  background-position: center;
+  background-image: url(https://www.bassnectar.net/wp-content/gallery/family-photos/bassnectar-familyphoto20151220-basslights-alivecoverage.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  font-size: 22px;
+}
+
+#vid {
+  bottom: 50px;
+}
+
+#video {
+  margin-bottom: 40px;
+  position: static;
 }
 
 #about {
@@ -45,20 +87,34 @@ h1 {
   height: 500px;
 }
 
+h1 {
+  border: 3px solid rgb(123, 0, 32);
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+  width: 400px;
+  font-size: 48px;
+  text-align: center;
+}
+
 h2{
   color: rgb(23, 255, 82);
   padding: 10px;
-  border: 2px solid rgb(123, 0, 32);
+  border: 3px solid rgb(123, 0, 32);
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
   width: 300px;
 }
 
 ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    margin-bottom: 50px;
     overflow: auto;
     background-color: #333333;
     width: 800px;
+    border-radius: 10px;
 }
 
 li {
